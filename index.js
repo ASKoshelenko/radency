@@ -13,7 +13,6 @@ function getAllCombinationsTowns(list, k) {
     return combinations;
 }
 
-
 const chooseOptimalDistance = (t, k, ls) => {
     if (k < 1) {
         return null;
@@ -40,7 +39,6 @@ const chooseOptimalDistance = (t, k, ls) => {
     }
     return Math.max(...waysLengths);
 };
-
 
 a = chooseOptimalDistance(174, 3, [51, 56, 58, 59, 61]); //173
 b = chooseOptimalDistance(163, 3, [50]); // null
